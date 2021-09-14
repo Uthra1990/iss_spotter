@@ -32,7 +32,6 @@ const printPassTimes = function(passTimes) {
   }
 };
 
-
 const { nextISSTimesForMyLocation } = require('./iss');
 nextISSTimesForMyLocation((error, passTimes) => {
   if (error) {

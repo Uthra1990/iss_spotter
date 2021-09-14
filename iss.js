@@ -62,6 +62,5 @@ const fetchCoordsByIP = function(ip,callback) {
         });
       };
 
-  
   //module.exports = { fetchCoordsByIP };
   module.exports = { nextISSTimesForMyLocation };2
