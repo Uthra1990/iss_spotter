@@ -24,5 +24,6 @@ const fetchMyIP = function() {
         return response;
       });
   };
+  
   //module.exports = { fetchMyIP, fetchCoordsByIP , fetchISSFlyOverTimes };
   module.exports = { nextISSTimesForMyLocation };
